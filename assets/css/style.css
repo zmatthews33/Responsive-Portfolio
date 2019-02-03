@@ -7,7 +7,7 @@
 body    {
 	color: #777777;
 	font-family: 'Roboto', sans-serif;
-	line-height: 34px;
+	line-height: 175%;
 	text-align: left;
 	width: 100%;
 	height: 90vh;
@@ -22,7 +22,7 @@ header  {
     color: #ffffff;
 	height: 100%;
 	width: 270px;
-    margin-left: 125px;
+    margin-left: 2%;
 	margin-bottom: 0;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
@@ -45,9 +45,10 @@ h3	{
   
 nav {
 	width: 270px;
-	float: right;
+	height: 100%;
 	text-align: center;
-	margin-right: 125px;
+	float: right;
+	margin-right: 5%;
 }
   
 ul  {
@@ -59,12 +60,12 @@ ul  {
 li  {
 	float: left;
 	width: 33%;
-	padding: 10px;
+	padding: 2%;
 }
   
 li.border   {
 	border-right: 1px solid #dddddd;
-	padding: 10px;
+	padding: 2%;
 }
   
 a   {
@@ -212,4 +213,100 @@ footer  {
 	width: 200px;
 	height: 200px;
 }
+
+@media screen and (max-width: 980px) {
   
+	/* None */
+}
+	
+
+@media screen and (max-width: 768px) {
+
+.left-align {
+	width: inherit;
+}
+
+.box {
+	width: 50%;
+}
+
+#socials {
+	clear: both;
+	float: left;
+	overflow: auto 0;
+	width: 96%;
+	margin: 2%;
+	margin-right: 2%
+}
+
+#bio,
+#contact-form,
+#portfolio {
+	clear: both;
+	float: left;
+	overflow: auto 0;
+	width: 96%;
+	margin: 2%;
+}
+
+	@media screen and (max-width: 640px) {
+
+header	{
+	float: left;
+	background-color: #4aaaa5;
+	border-bottom: none;
+	color: #ffffff;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 3%;
+	margin-left: 0%;
+}
+
+nav	{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	float: left;
+	border-bottom: 2px solid #cccccc;
+}
+
+p {
+	margin-top: 15px;
+}
+
+.container-head {
+	border-bottom: none;
+	z-index: -1;
+}
+
+.box {
+	width: 100%;
+}
+
+#socials {
+	clear: both;
+	float: left;
+	overflow: auto 0;
+	width: 96%;
+	margin: 2%;
+	margin-right: 2%
+}
+
+#bio {
+	clear: both;
+	float: left;
+	overflow: auto 0;
+	width: initial;
+	margin: 2%;
+}
+
+#bio-pic {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 15px;
+}
